@@ -1,0 +1,109 @@
+
+<html>
+
+<meta charset="UTF-8">
+        <link rel ="stylesheet" href ="style.css">
+
+<body>
+    <div class="nav-links">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="test.html">TEST AUTOMATION</a></li>
+            <li><a href="dev.html">DEVOPS</a></li>
+            <li><a href="other.html">OTHER PROCESS</a></li>
+            <li><a href="process.html">PROCESS AUT</a></li>
+            <li><a href="user.html">USER SUPPORT</a></li>
+             
+        </ul>
+    </div>
+   <section >
+       <br><button0 onclick= <li><a href="#Can">CANStack</a></li> </button0><br>
+        <br><button0 onclick=<li><a href="#comm">Compiler and Tools</a></li> </button0><br>
+        <div class="Canstack" id="#can">
+            <h1>CANSTACK</h1>
+<div class="items">
+  <button class="Button button1" onclick="opentool('citi')">Citibot Deployment for RTE support</button>
+</div>
+</div>
+ 
+
+<div id="citi" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="citibot dev">&times;</span>
+  <h2>Citibot Deployment for RTE support</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+<section class="Compiler " id="comm">
+    <h2>COMPILER METHODS AND TOOLS</h2>
+    
+  <button class="Button button1" onclick="opentool('Flashing')">Flashing and Testing with Lauterbach automation for XC-AN/ESV2 -LRI Project</button>
+  <button class="Button button2" onclick="opentool('Automation of')">Automation of erase operation in TC39x device for XC-AN/ESV2 -LRI Project</button>
+  <button class="Button Button3" onclick="opentool('automation')">Automation of Flashing Multiple Hex Files for XC-AN/ESV2 -LRI Project</button>
+</div>
+</div>
+
+
+<div id="Flashing" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaa">&times;</span>
+  <h2>Flashing and Testing with Lauterbach automation for XC-AN/ESV2 -LRI Project</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+  
+</div>
+
+<div id="Automation of" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaa">&times;</span>
+  <h2>Automation of erase operation in TC39x device for XC-AN/ESV2 -LRI Project</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<div id="automation" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaa">&times;</span>
+  <h2>Automation of Flashing Multiple Hex Files for XC-AN/ESV2 -LRI Project</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+
+</section>
+
+</body>
+</html>
+
+        
+
+

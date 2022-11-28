@@ -1,0 +1,110 @@
+<html>
+
+    
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="style.css">
+    
+    <body>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="test.html">TEST AUTOMATION</a></li>
+                <li><a href="dev.html">DEVOPS</a></li>
+                <li><a href="other.html">OTHER PROCESS</a></li>
+                <li><a href="process.html">PROCESS AUT</a></li>
+                <li><a href="user.html">USER SUPPORT</a></li>
+                
+        </div>
+        <section >
+            <br><button0 onclick= <li><a href="#Com">FLEXCOM</a></li> </button0><br>
+            <br><button0 onclick=<li><a href="#commm">Compiler and Tools</a></li> </button0><br>
+            
+        <div class="Compiler" id="#Comm">
+            <h1>Compiler methods and Tools</h1> 
+              <button class="Button button1" onclick="opentool('Workflow')">Workflow deviation metrics automation</button>
+              <button class="Button button2" onclick="opentool('PL')">PL and NON-PL Effort Tracking Automation</button>
+  
+</div>
+</div>
+
+
+<div id="Workflow" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaab">&times;</span>
+  <h2>Workflow deviation metrics automation</h2>
+  <p><b>DESCRIPTION:</b>Workflow deviation metrics automation<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+  
+</div>
+
+<div id="PL" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaab">&times;</span>
+  <h2>PL and NON-PL Effort Tracking Automation</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+
+        <section class="Flexxx" id="Com">
+                <h2>FLEXCOM</h2> 
+    <button class="Button button1" onclick="opentool('QG')">QG Automation</button>
+  <button class="Button button2" onclick="opentool('Defect')">Defect fix porting tool</button>
+  
+</div>
+</div>
+
+
+<div id="QG" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaab">&times;</span>
+  <h2>QG Automation</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2022<br>
+    <b>GROUP:</b>EBA5<br></p>
+  
+</div>
+
+<div id="Defect" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaab">&times;</span>
+  <h2>Defect fix porting tool</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2022<br>
+    <b>GROUP:</b>EBA5<br></p>
+</div>
+
+
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+
+              
+        </section>
+    </body>
+    </html>
+
+        
