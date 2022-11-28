@@ -1,0 +1,128 @@
+<html>
+
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="style.css">
+   
+    <body>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="test.html">TEST AUTOMATION</a></li>
+                <li><a href="dev.html">DEVOPS</a></li>
+                <li><a href="other.html">OTHER PROCESS</a></li>
+                <li><a href="process.html">PROCESS AUT</a></li>
+                <li><a href="user.html">USER SUPPORT</a></li>   
+            </ul>
+        </div>
+        <section >
+           <br><button0 onclick= <li><a href="#Can">CANStack</a></li> </button0><br>
+            <br><button0 onclick=<li><a href="#Flexxxx">Flexcom</a></li> </button0><br>
+        <div class="Canstack" id="#can">
+            <h1>CANSTACK</h1>
+            <div class="items">
+        <button class="Button button1" onclick="opentool('prime')">Prime Sheet opening Automatically at fixed time</button>
+         <button class="Button button2" onclick="opentool('copy')">Automation to copy files for RTMG Generation</button>
+         <button class="Button Button3" onclick="opentool('mem')">MemMap tool</button>
+         <button class="Button Button4" onclick="opentool('RIPS')">Tool in RIPS to check generated outputs</button>
+</div>
+</div>
+
+
+<div id="prime" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaba">&times;</span>
+  <h2>Prime Sheet opening Automatically at fixed time</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+  
+</div>
+
+<div id="copy" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaba">&times;</span>
+  <h2>Automation to copy files for RTMG Generation</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<div id="mem" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaba">&times;</span>
+  <h2>MemMap tool</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2021<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<div id="RIPS" class="w3-container w3-display-container tool" style="display:none">
+    <span onclick="this.parentElement.style.display='none'"
+    class="aaba">&times;</span>
+    <h2>Tool in RIPS to check generated outputs</h2>
+    <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+      <b>STATUS:</b>Completed<br>
+      <b>COMPLETED YEAR:</b>2021<br>
+      <b>GROUP:</b>EBA7<br></p>
+  </div>
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+<section class="Flexxxx" id="Com">
+    <h2>FLEXCOM</h2> 
+<button class="Button button1" onclick="opentool('aut')">Automated update of UTSpec & TestSummary using GUIDs from EA Export</button>
+<button class="Button button2" onclick="opentool('auto')">Automated update of DOORS ID manually updated in Comp TestSpec
+</button>
+
+</div>
+</div>
+
+
+<div id="aut" class="w3-container w3-display-container tool"style="display:none">
+<span onclick="this.parentElement.style.display='none'"
+class="aaa">&times;</span>
+<h2>Automated update of UTSpec & TestSummary using GUIDs from EA Export</h2>
+<p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+<b>STATUS:</b>Completed<br>
+<b>COMPLETED YEAR:</b>2022<br>
+<b>GROUP:</b>EBA5<br></p>
+
+</div>
+
+<div id="auto" class="w3-container w3-display-container tool" style="display:none">
+<span onclick="this.parentElement.style.display='none'"
+class="aaa">&times;</span>
+<h2>Automated update of DOORS ID manually updated in Comp TestSpec</h2>
+<p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+<b>STATUS:</b>Completed<br>
+<b>COMPLETED YEAR:</b>2022<br>
+<b>GROUP:</b>EBA5<br></p>
+</div>
+
+
+<script>
+function opentool(toolName) {
+var i;
+var x = document.getElementsByClassName("tool");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";  
+}
+document.getElementById(toolName).style.display = "block";  
+}
+</script>
+</section>
+
+</body>
+</html>
+
+        
