@@ -1,0 +1,55 @@
+<html>
+
+    
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="style.css">
+    
+    <body>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="test.html">TEST AUTOMATION</a></li>
+                <li><a href="dev.html">DEVOPS</a></li>
+                <li><a href="other.html">OTHER PROCESS</a></li>
+                <li><a href="process.html">PROCESS AUT</a></li>
+                <li><a href="user.html">USER SUPPORT</a></li>
+                
+            </ul>
+        </div>
+    <section >
+        <br><button0 onclick= <li><a href="#Com">COMSERVICES</a></li> </button0><br>
+        <div class="COMSERVICESS" id="#Com">
+            <h1>COMSERVICES</h1>  
+            <div class="items">
+                <button class="Button button1" onclick="opentool('Test')">TestOps team for VRTE</button>
+              </div>
+              </div>
+              
+              
+              <div id="Test" class="w3-container w3-display-container tool"style="display:none">
+                <span onclick="this.parentElement.style.display='none'"
+                class="testt">&times;</span>
+                <h2>TestOps team for VRTE</h2>
+                <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+                  <b>STATUS:</b>Completed<br>
+                  <b>COMPLETED YEAR:</b>2021<br>
+                  <b>GROUP:</b>EBA7<br></p>
+              </div>
+              
+              <script>
+              function opentool(toolName) {
+                var i;
+                var x = document.getElementsByClassName("tool");
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                document.getElementById(toolName).style.display = "block";  
+              }
+              </script>
+                 
+    </section>
+
+ 
+
+
+            
