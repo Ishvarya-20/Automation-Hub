@@ -1,0 +1,381 @@
+<html>
+
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href ="style.css">
+    
+    <body>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="test.html">TEST AUTOMATION</a></li>
+                <li><a href="dev.html">DEVOPS</a></li>
+                <li><a href="other.html">OTHER PROCESS</a></li>
+                <li><a href="process.html">PROCESS AUT</a></li>
+                <li><a href="user.html">USER SUPPORT</a></li><li>
+            </ul>
+        </div>
+    <section >
+    <div>   
+        <ul>
+
+        <br><button0 onclick=<li><a href="#Ethernet">Ethernet_Stack</a></li>  </button0><br>
+        <br><button0 onclick=<li><a href="#BSW">BSW_CEL_SM_LIB</a></li> </button0><br>
+        <br><button0 onclick=<li><a href="#Compiler">Compiler Methods and Tools</a></li> </button0><br>
+        <br><button0 onclick=<li><a href="#CON">COMSERVICES</a></li> </button0><br>
+        <br><button0 onclick=<li><a href="#Flex">Flexcom</a></li> </button0><br>
+    </ul>
+    </div>
+    <div class="Ethernet_Stack" id="#Ethernet">
+        <h1>ETHERNET STACK</h1>
+        <button class="Button button1" onclick="opentool('capl')">CAPL</button>
+        <button class="Button button2" onclick="opentool('Bsw')">Bswsim</button>
+        <button class="Button Button3" onclick="opentool('pythh')">Automated Python Scripts</button>
+</div>
+
+<div id="capl" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaa">&times;</span>
+  <h2>CAPL</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2020<br>
+    <b>GROUP:</b>EBA2<br></p>
+  
+</div>
+
+<div id="Bsw" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaa">&times;</span>
+  <h2>Bswsim</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2020<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<div id="pythh" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaa">&times;</span>
+  <h2>Automated Python Scripts</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2020<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+
+    </div>      
+    </section>
+    <section class="BSW_CEL_SM_LIB" id="BSW">
+        <h1>BSW_CEL_SM_LIB</h1>
+
+        <button class="Button button1" onclick="opentool('tata')">CANTATA</button>
+        <button class="Button button2" onclick="opentool('rat')">Rational Quality Manager QM</button>
+
+<div id="tata" class="w3-container w3-display-container tool"style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaab">&times;</span>
+  <h2>CANTATA</h2>
+  <p><b>DESCRIPTION:</b>Workflow deviation metrics automation<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2020<br>
+    <b>GROUP:</b>EBA7<br></p>
+  
+</div>
+
+<div id="rat" class="w3-container w3-display-container tool" style="display:none">
+  <span onclick="this.parentElement.style.display='none'"
+  class="aaab">&times;</span>
+  <h2>Rational Quality Manager QM</h2>
+  <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+    <b>STATUS:</b>Completed<br>
+    <b>COMPLETED YEAR:</b>2020<br>
+    <b>GROUP:</b>EBA7<br></p>
+</div>
+
+<script>
+function opentool(toolName) {
+  var i;
+  var x = document.getElementsByClassName("tool");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(toolName).style.display = "block";  
+}
+</script>
+     
+    </section>
+    <section class="Compiler Methods and Tools" id="Compiler">
+        <h1>COMPILER METHODS AND TOOLS</h1>
+        <div class="items">
+            <button class="Button button1" onclick="opentool('Jekins')">Jekins</button>
+             <button class="Button button2" onclick="opentool('TCL')">TCL</button>
+             <button class="Button Button3" onclick="opentool('Compiler Benchmarking')">Compiler Benchmarking</button>
+             <button class="Button Button4" onclick="opentool('ESR Lab Automation')">ESR Lab Automation</button>
+             <button class="Button Button5" onclick="opentool('Ping Pong Test')">Ping Pong Test</button>
+             <button class="Button Button6" onclick="opentool('Monthly WI Automation')">Monthly WI Automation</button>
+             <button class="Button Button7" onclick="opentool('CATS ALM Response Metrics')">CATS ALM Response Metrics</button>
+             <button class="Button Button8" onclick="opentool('CATS ALM Duration Metrics')">CATS ALM Duration Metrics</button>
+             <button class="Button Button9" onclick="opentool('cc')">[CC-DA][EAD][AUTOMATION]Testing with CANOE and Lauterbach</button>
+             <button class="Button Button10" onclick="opentool('tri')">Tricore Register testsuite for trace32</button>
+             <button class="Button Button11" onclick="opentool('oei')">OEI Daily Effort Tracking Automation</button>
+    </div>
+    </div>
+    
+    
+    <div id="Jekins" class="w3-container w3-display-container tool"style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>Jekins</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+      
+    </div>
+    
+    <div id="TCL" class="w3-container w3-display-container tool" style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>TCL</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+    </div>
+    
+    <div id="Compiler Benchmarking" class="w3-container w3-display-container tool" style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>Compiler Benchmarking</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+    </div>
+    
+    <div id="ESR Lab Automation" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>ESR Lab Automation</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="Ping Pong Test" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>Ping Pong Test</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="Monthly WI Automation" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>Monthly WI Automation</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="CATS ALM Response Metrics" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>CATS ALM Response Metrics</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="CATS ALM Duration Metrics" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>CATS ALM Duration Metrics</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="cc" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>[CC-DA][EAD][AUTOMATION]Testing with CANOE and Lauterbach</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="tri" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>Tricore Register testsuite for trace32</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="oei" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>OEI Daily Effort Tracking Automation</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <script>
+    function opentool(toolName) {
+      var i;
+      var x = document.getElementsByClassName("tool");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(toolName).style.display = "block";  
+    }
+    </script>
+    </section>
+    <section class="COMSERVICES" id="CON">
+        <h1>COMSERVICES</h1>
+        <div class="items">
+            <button class="Button button1" onclick="opentool('vb')">Automated VB scripts for updating test execution summary for every module during pre-release & release</button>
+             <button class="Button button2" onclick="opentool('gen')">Automation Script to Run & Generate comp TestReport</button>
+             
+    </div>
+    
+    
+    
+    <div id="vb" class="w3-container w3-display-container tool"style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>Automated VB scripts for updating test execution summary for every module during pre-release & release</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+      
+    </div>
+    
+    
+    <div id="gen" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>CAutomation Script to Run & Generate comp TestReport</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    
+    <script>
+    function opentool(toolName) {
+      var i;
+      var x = document.getElementsByClassName("tool");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(toolName).style.display = "block";  
+    }
+    </script>
+    </div>
+    </section>
+    <section class="Flescom" id="Flex">
+        <h1>FLEXCOM</h1>
+        <div class="items">
+            <button class="Button button1" onclick="opentool('WINQ')">WINQ tool for Automated PDC</button>
+             <button class="Button button2" onclick="opentool('run')">Runtime automation for Fr Drc Comps</button>
+             <button class="Button Button3" onclick="opentool('rem')">Remote test Enabler for Fr and Lin</button>
+             <button class="Button Button4" onclick="opentool('uart')">UART Test Automation</button>
+    
+             <button class="Button Button5" onclick="opentool('comp')">Comp Test file Generation from Manually mapped Gen6 Req</button>
+    </div>
+    
+    
+    
+    <div id="WINQ" class="w3-container w3-display-container tool"style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>WINQ tool for Automated PDC</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+      
+    </div>
+    
+    <div id="run" class="w3-container w3-display-container tool" style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>Runtime automation for Fr Drc Comps</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+    </div>
+    
+    <div id="rem" class="w3-container w3-display-container tool" style="display:none">
+      <span onclick="this.parentElement.style.display='none'"
+      class="aaa">&times;</span>
+      <h2>Remote test Enabler for Fr and Lin</h2>
+      <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+        <b>STATUS:</b>Completed<br>
+        <b>COMPLETED YEAR:</b>2021<br>
+        <b>GROUP:</b>EBA7<br></p>
+    </div>
+    
+    <div id="uart" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>UART Test Automation</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    <div id="comp" class="w3-container w3-display-container tool" style="display:none">
+        <span onclick="this.parentElement.style.display='none'"
+        class="aaa">&times;</span>
+        <h2>Comp Test file Generation from Manually mapped Gen6 Req</h2>
+        <p><b>DESCRIPTION:</b>Automated update of DOORS ID manually updated in Comp TestSpec<br>
+          <b>STATUS:</b>Completed<br>
+          <b>COMPLETED YEAR:</b>2021<br>
+          <b>GROUP:</b>EBA7<br></p>
+      </div>
+    
+    
+    <script>
+    function opentool(toolName) {
+      var i;
+      var x = document.getElementsByClassName("tool");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      document.getElementById(toolName).style.display = "block";  
+    }
+    </script>
+
+    </section>
+  </body>
+    </html>
